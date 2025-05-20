@@ -1,5 +1,5 @@
 {
-  "name": "@sourcemap-consumer-prototyping/consumer",
+  "name": "@sourcemap-consumer/consumer",
   "version": "0.0.1",
   "private": true,
   "nx": {

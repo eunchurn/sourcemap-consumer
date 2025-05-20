@@ -1,4 +1,4 @@
-# Sourcemap Consumer Prototyping
+# Sourcemap Consumer
 
 ## Installation
 

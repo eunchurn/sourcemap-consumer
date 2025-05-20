@@ -1,5 +1,5 @@
 {
-  "name": "@sourcemap-consumer-prototyping/react-sample",
+  "name": "@sourcemap-consumer/react-sample",
   "version": "0.0.1",
   "private": true,
   "nx": {
