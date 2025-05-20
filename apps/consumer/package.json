@@ -1,0 +1,15 @@
+{
+  "name": "@sourcemap-consumer-prototyping/consumer",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "targets": {
+      "start": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "nx run consumer:dev"
+        }
+      }
+    }
+  }
+}
