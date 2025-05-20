@@ -3,13 +3,13 @@
 ## Installation
 
 ```bash
-bun install
+npm install
 ```
 
 ## Running the Project
 
 ```bash
-bun run dev
+npm run dev
 ```
 
 ## Sources and Sourcemaps
