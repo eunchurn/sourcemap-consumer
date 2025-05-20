@@ -1,6 +1,6 @@
 # Sourcemap Consumer
 
-[![CI](https://github.com/eunchurn/sourcemap-consumer/actions/workflows/ci.yml/badge.svg)](https://github.com/eunchurn/sourcemap-consumer/actions/workflows/ci.yml)
+[![CI](https://github.com/eunchurn/sourcemap-consumer/actions/workflows/ci.yml/badge.svg)](https://github.com/eunchurn/sourcemap-consumer/actions/workflows/ci.yml) ![Vercel](https://vercelbadge.vercel.app/api/eunchurn/sourcemap-consumer)
 
 ## Installation
 
