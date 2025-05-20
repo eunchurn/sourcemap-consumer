@@ -8,7 +8,7 @@
     "apps/*"
   ],
   "scripts": {
-    "dev": "bun nx run-many -t start"
+    "dev": "nx run-many -t start"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
