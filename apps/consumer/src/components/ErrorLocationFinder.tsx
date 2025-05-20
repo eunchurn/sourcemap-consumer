@@ -36,7 +36,7 @@ export function ErrorLocationFinder({
               Error Location (e.g.): ,{" "}
               <div className="inline-block bg-muted p-3 rounded-md">
                 <span className="text-sm font-mono">
-                  ../../src/App.tsx:49:35182
+                  index-DTnOFEJU.js:49:35182
                 </span>
               </div>
             </Label>
