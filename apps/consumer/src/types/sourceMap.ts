@@ -4,7 +4,7 @@ export interface Position {
 }
 
 export interface SourceMapFiles {
-  minified: File;
+  // minified: File;
   sourceMap: File;
 }
 

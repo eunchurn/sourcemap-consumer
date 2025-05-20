@@ -12,7 +12,7 @@ import { Layout } from '@/components/Layout';
 export default function HomePage() {
   const [errorInput, setErrorInput] = useState('');
   const {
-    minifiedSource,
+    // minifiedSource,
     originalSource,
     sourceMapConsumer,
     setSourceFiles,
@@ -29,13 +29,13 @@ export default function HomePage() {
           <FileUploader onFilesUpload={setSourceFiles} isLoading={isLoading} />
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-          <CodePanel 
+        <div className="grid grid-cols-1 gap-6 mb-8">
+          {/* <CodePanel 
             title="Minified Source" 
             code={minifiedSource} 
             isLoading={isLoading}
             errorPosition={errorResult?.generatedPosition}
-          />
+          /> */}
           <CodePanel 
             title="Original Source" 
             code={originalSource} 

@@ -7,7 +7,7 @@ import sourceMap from "source-map-js";
 
 sourceMap.SourceMapConsumer
 export function useSourceMap() {
-  const [minifiedSource, setMinifiedSource] = useState<string>("");
+  // const [minifiedSource, setMinifiedSource] = useState<string>("");
   const [originalSource, setOriginalSource] = useState<string>("");
   const [sourceMapConsumer, setSourceMapConsumer] = useState<any>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
@@ -30,8 +30,8 @@ export function useSourceMap() {
 
     try {
       // Read minified source
-      const minifiedText = await readFileAsText(files.minified);
-      setMinifiedSource(minifiedText);
+      // const minifiedText = await readFileAsText(files.minified);
+      // setMinifiedSource(minifiedText);
 
       // Read source map
       const sourceMapText = await readFileAsText(files.sourceMap);
@@ -176,7 +176,7 @@ export function useSourceMap() {
   };
 
   return {
-    minifiedSource,
+    // minifiedSource,
     originalSource,
     sourceMapConsumer,
     setSourceFiles,
