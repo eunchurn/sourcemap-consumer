@@ -26,5 +26,23 @@ export default defineConfig(() => ({
       transformMixedEsModules: true,
     },
     sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'bali-card': ['./src/app/components/Card1'],
+          'tokyo-card': ['./src/app/components/Card2'],
+          'paris-card': ['./src/app/components/Card3'],
+          'newyork-card': ['./src/app/components/Card4'],
+          'rome-card': ['./src/app/components/Card5'],
+          'sydney-card': ['./src/app/components/Card6'],
+          'dubai-card': ['./src/app/components/Card7'],
+          'bangkok-card': ['./src/app/components/Card8'],
+          'iceland-card': ['./src/app/components/Card9'],
+          'hawaii-card': ['./src/app/components/Card10'],
+          'santorini-card': ['./src/app/components/Card11'],
+          'machupicchu-card': ['./src/app/components/Card12'],
+        }
+      }
+    }
   },
 }));
