@@ -12,6 +12,13 @@
             "nx run react-sample:preview"
           ]
         }
+      },
+      "preview": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "vite preview",
+          "cwd": "apps/react-sample"
+        }
       }
     }
   }
